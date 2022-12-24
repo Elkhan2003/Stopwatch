@@ -108,7 +108,7 @@ body {
 .buttons button {
   position: relative;
   z-index: 10;
-  margin: 0 20px;
+  margin: 0 15px;
   font-weight: 700;
   font-size: 25px;
   color: #ffffff;
@@ -134,7 +134,7 @@ body {
   background: linear-gradient(90deg, #0080ff 0%, #d62828 100%);
   color: #ffffff;
   border: none;
-  box-shadow: inset 0px 0px 10px black;
+  box-shadow: inset 0px 0px 20px black;
   transition: 0.7s;
 }
 
