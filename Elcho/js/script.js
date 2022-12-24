@@ -57,6 +57,6 @@ function startTimer() {
 	}
 }
 
-// let testing = 90;
-// console.log(localStorage.setItem("test", testing));
-// console.log(localStorage.getItem("test"));
+let testing = 90;
+console.log(localStorage.setItem("test", testing));
+console.log(localStorage.getItem("test"));
