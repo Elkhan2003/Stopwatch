@@ -39,9 +39,6 @@ function startTimer() {
 		getSeconds.innerHTML = "0" + seconds;
 		tens = 0;
 		getTens.innerHTML = "0" + 0;
-		console.log(seconds);
-		// localStorage.setItem("second", seconds.toString());
-		// localStorage.getItem("second");
 	}
 	if (seconds > 9) {
 		getSeconds.innerHTML = seconds;
@@ -56,7 +53,3 @@ function startTimer() {
 		getSeconds.innerHTML = mins;
 	}
 }
-
-let testing = 90;
-console.log(localStorage.setItem("test", testing));
-console.log(localStorage.getItem("test"));
